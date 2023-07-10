@@ -78,3 +78,79 @@ body {
     padding-left: 20px;
     float: left;
 }
+
+/* ==== PLAYERS ====*/
+
+#players {
+    width: 100%;
+    margin: 0;
+    margin-top: 150px;
+
+    font-family: 'Anton', sans-serif;
+
+    overflow: hidden;
+}
+
+/* ==== PLAYERS LEFT ====*/
+
+#players_left {
+    float: left;
+
+    width: 175px;
+    height: 110px;
+    background-color: #0051ff;
+    overflow: hidden;
+
+    color: white;
+
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#players_left_1_name, #players_left_2_name, #players_left_3_name {
+    width: 100%;
+    float: left;
+
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#players_left_1_boost, #players_left_2_boost, #players_left_3_boost {
+    width: 100%;
+    height: 8px;
+    float: left;
+    background-color: black;
+}
+
+/* ==== PLAYERS RIGHT ====*/
+
+#players_right {
+    float: right;
+
+    width: 175px;
+    height: 110px;
+    background-color: orange;
+    overflow: hidden;
+
+    color: white;
+
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#players_right_1_name, #players_right_2_name, #players_right_3_name {
+    width: 100%;
+    float: right;
+
+    text-align: right;
+
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+#players_right_1_boost, #players_right_2_boost, #players_right_3_boost {
+    width: 100%;
+    height: 8px;
+    float: right;
+    background-color: black;
+}
